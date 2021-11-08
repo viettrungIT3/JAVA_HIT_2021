@@ -21,4 +21,8 @@ public class Hang {
         System.out.printf("%10s %20s %12s", maHang, tenHang, donGia);
         System.out.println();
     }
+
+    public float getDonGia() {
+        return donGia;
+    }
 }

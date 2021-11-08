@@ -5,5 +5,6 @@ public class RunMain {
         Phieu p = new Phieu();
         p.Nhap();
         p.Xuat();
+        System.out.println("Tổng tiền của phiếu: " + p.tongTien());
     }
 }

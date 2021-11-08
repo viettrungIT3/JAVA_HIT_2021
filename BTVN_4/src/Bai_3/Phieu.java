@@ -31,4 +31,12 @@ public class Phieu {
             x[i].Xuat();
         }
     }
+
+    public float tongTien() {
+        float tong = 0;
+        for (int i = 0; i < n; i++) {
+            tong += x[i].getDonGia();
+        }
+        return tong;
+    }
 }
