@@ -51,7 +51,7 @@ public class RunMain {
         System.out.printf("%15s %10s", "Ngày mở: ", lopHoc.getNgayMo());
         System.out.println();
         System.out.println("Danh sách sinh viên trong lớp: ");
-        System.out.printf("%10s %20s %12s %12s %12s %12s", "Mã SV", "Họ tên", "Ngày sinh", "Quên quán", "Ngành học", "Khoá học.");
+        System.out.printf("%10s %20s %12s %12s %12s %12s", "Mã SV", "Họ tên", "Ngày sinh", "Quê quán", "Ngành học", "Khoá học.");
         System.out.println();
         for (int i = 0; i < lopHoc.getN(); i++) {
             XuatSV(lopHoc.getX().get(i));
